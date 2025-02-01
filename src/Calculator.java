@@ -5,17 +5,17 @@ import java.util.Scanner;
 public class Calculator {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         System.out.println("Welcome to the Basic Calculator!");
         System.out.println("Enter the first number:");
-        double num1 = scanner.nextDouble();
+        double num1 = input.nextDouble();
 
         System.out.println("Enter an operator (+, -, *, /):");
-        char operator = scanner.next().charAt(0);
+        char operator = input.next().charAt(0);
 
         System.out.println("Enter the second number:");
-        double num2 = scanner.nextDouble();
+        double num2 = input.nextDouble();
 
         double result;
 
@@ -44,7 +44,7 @@ public class Calculator {
                 System.out.println("Invalid operator. Please use +, -, *, or /.");
         }
 
-        scanner.close();
+        input.close();
         System.out.println("Thank you for using the calculator!");
     }
 }
