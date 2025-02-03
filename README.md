@@ -25,7 +25,7 @@ A simple Java-based calculator that performs basic arithmetic operations: additi
 ### Steps to Run the Project
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/java-basic-calculator.git
+   git clone https://github.com/nurulashraf/java-basic-calculator.git
    ```
 2. Navigate to the project directory:
    ```bash
